@@ -2,7 +2,6 @@
 Exile Serverside Custom Functions
 
 
-
 Currently with exile there is no means of updating poptabs/respect of a player from clientside code that saves to the database. 
 
 Say you wanted to add 10000 poptabs to a player - You could try and use:
@@ -22,7 +21,15 @@ The player would show that they have an extra 10k poptabs on xm8.....But this wo
 
 This addon adds the ability to update any players poptabs/respect and save it to the database.
 
-If your not running any extra addons folders the easiest way to run this is just adding the Enigma_Exile_Serverside.pbo to the @ExileServer/Addons path where it will be loaded up automatically. Otherwise place into any addon folderpath that is loaded on the server!
+
+
+HOW TO INSTALL:
+
+If your not running any extra addons folders the easiest way to run this is just adding the Enigma_Exile_Custom.pbo to the @ExileServer/Addons path where it will be loaded up automatically. Otherwise place into any addon folderpath that is loaded on the server!
+
+
+HOW TO USE:
+
 
 Then in any of your scripts that you run on a client you can simply run the following code:
 
