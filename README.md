@@ -1,7 +1,8 @@
 # Enigma_Exile_UpdateRP
 Exile Serverside Update Respect and Poptabs 
 
-Updated 18/03/15 - Added Support for Advanced Banking
+Updated 18/03/15 - Added Support for Advanced Banking and renamed to remove any conflicts with other Enigma Scripts. 
+
 
 
 Currently with exile there is no means of updating poptabs/respect of a player from clientside code that saves to the database. 
@@ -26,10 +27,17 @@ This addon adds the ability to update any players poptabs/respect and save it to
 
 
 
-HOW TO INSTALL:
 
-If your not running any extra addons folders the easiest way to run this is just adding the Enigma_Exile_Custom.pbo to the @ExileServer/Addons path where it will be loaded up automatically. 
-Otherwise place into any addon folderpath that is loaded on the server!
+------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------HOW TO INSTALL ENIGMA Update Respect and Poptabs-----------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+First add the startup paramaters @Enigma to your server!
+
+Copy the @Enigma Folder to your Server Root!
+
+An alternative method is to open the @Enigma\addons folder and transfer any file ending with .pbo into your @ExileServer\addons\ folder where it will be loaded up automatically.
 
 
 HOW TO USE:

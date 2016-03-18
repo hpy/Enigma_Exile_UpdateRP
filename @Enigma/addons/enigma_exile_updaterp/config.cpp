@@ -1,7 +1,7 @@
 
 class CfgPatches 
 {
-	class Enigma_Exile_UpdateRP {
+	class enigma_exile_updaterp {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
@@ -10,11 +10,11 @@ class CfgPatches
 };
 class CfgFunctions 
 {
-	class Enigma 
+	class EnigmaUpdateRP
 	{
 		class main 
 		{
-			file = "\Enigma_Exile_UpdateRP\init";
+			file = "\enigma_exile_updaterp\init";
 			class init
 			{
 				preInit = 1;
