@@ -1,5 +1,7 @@
-# Enigma_Exile_Custom
-Exile Serverside Custom Functions
+# Enigma_Exile_UpdateRP
+Exile Serverside Update Respect and Poptabs 
+
+Updated 18/03/15 - Added Support for Advanced Banking
 
 
 Currently with exile there is no means of updating poptabs/respect of a player from clientside code that saves to the database. 
