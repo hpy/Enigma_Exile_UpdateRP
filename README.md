@@ -19,6 +19,7 @@ _target = player;
 			(owner _target) publicVariableClient 'ExileClientPlayerScore';
 			
 			format['setAccountScore:%1:%2', _newscorevalue, (getPlayerUID _target)] call ExileServer_system_database_query_fireAndForget;
+			
 The player would show that they have an extra 10k poptabs on xm8.....But this would NOT save to the database as call ExileServer_system_database_query_fireAndForget; is NOT a client recognised function. So once player logged off/server restarted they would roll back to their old amount of poptabs/respect.
 
 This addon adds the ability to update any players poptabs/respect and save it to the database.
@@ -27,7 +28,8 @@ This addon adds the ability to update any players poptabs/respect and save it to
 
 HOW TO INSTALL:
 
-If your not running any extra addons folders the easiest way to run this is just adding the Enigma_Exile_Custom.pbo to the @ExileServer/Addons path where it will be loaded up automatically. Otherwise place into any addon folderpath that is loaded on the server!
+If your not running any extra addons folders the easiest way to run this is just adding the Enigma_Exile_Custom.pbo to the @ExileServer/Addons path where it will be loaded up automatically. 
+Otherwise place into any addon folderpath that is loaded on the server!
 
 
 HOW TO USE:
