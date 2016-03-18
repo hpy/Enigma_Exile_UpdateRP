@@ -46,7 +46,7 @@ HOW TO USE:
 Then in any of your scripts that you run on a client you can simply run the following code:
 
 //	_addrespect = Whatever total value you want it to be!		
-//example --- _addpoptabs = 10000;
+//example --- _addrespect = 10000;
 
 			_newScore = ExileClientPlayerScore + _addrespect;
 			ENIGMA_UpdateStats = [player,0,_newScore];
